@@ -26,7 +26,10 @@ and then finally alice.py. This is because when alice make request to talk to bo
 bob must be already registered and waiting for people to talk to him. You need to have pycrpto to run also.
 
 Run like this in this order:
-python2 server.py
-python2 bob.py
-python2 alice.py
+
+`python2 server.py`
+
+`python2 bob.py`
+
+`python2 alice.py`
 
