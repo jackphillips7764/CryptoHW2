@@ -27,7 +27,7 @@ def unpad(s):
 
 #encrypt with AES a msg
 def encrypt(key, msg):
-    iv = "\x00"*AES.block_size
+    iv = "\x00" * AES.block_size
     cipher = AES.new(key, AES.MODE_CBC, iv)
     cipher = cipher.encrypt(pad(msg))
     return cipher.encode('base64')
